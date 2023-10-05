@@ -1,0 +1,38 @@
+/*PSUEDOCODE
+- view high scores button
+- addEventListener button - click for start quiz
+  -timer starts
+  -presented with first question
+    - array - to store the questions
+    - array - to store answers
+      -array - store correct answers
+    - multiple buttons - 4
+    - click (New addEventListener or can we use the "start" listener)
+    - record answer whether T vs F in a variable
+      - Display whether wrong or correct
+      - subtract "x" amount of seconds for wrong answer
+        - for 1 second
+  - Another question -- repeat ^^
+  - All done when timer reaches 0 or no more questions
+    -accept initials
+    - record score in a 
+    - display score
+      -button "view highscores"
+      - button "GO back"
+
+
+arrays for questions
+
+
+
+homework hints
+-1. use arrays to store answers and questions
+-2. use function to control overflow of things
+-3. html is very limited, load things dynamically in js
+-4. how can we generate each new question and its answers on demand
+-5  how can we keep track of which quesiton is on the screen
+-6. get the quiz to work with 1 or 2 questions first
+-7. set a larger timer in the beginning
+-8. console.log whatever data you need for testing
+-9. plan before hand before you code
+
