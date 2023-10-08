@@ -7,12 +7,27 @@
   <title>Document</title>
 </head>
 <body>  
-  <button id="start-btn">Start</button>
-  <div id="timer">time</div>
-  <div id="questions">
-    <h2 id="question-title"></h2>
-  </div>  
-  <div id="scoreboard"></div>
-  <script src="./assets/js/script.js"></script>
+  <nav>
+    <button id="scoreboard">High Scores
+      <ol id="scoreboard-list"></ol>
+    </button>
+    <div id="timer">time</div>
+  </nav>
+  <header>
+    <h1>Javasript Fundamentals Quiz</h1>
+  </header>
+  <main>
+    <button id="start-btn">Start</button>
+    <div id="questions">
+      <!-- <h2 id="question-title">
+      </h2> -->
+    </div> 
+    <div class="is-wrong-or">Wrong or Correct</div>
+    <div id="results"></div> 
+  </main>
+  <footer>
+    &copy; Copyright 2023 Kurt Wensmann
+  </footer>
+   <script src="./assets/js/script.js"></script>
 </body>
 </html>
