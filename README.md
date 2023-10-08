@@ -1,6 +1,6 @@
 # 04 Web APIs: Code Quiz
 
-## Start Bu*tton
+## Start Button
 
 * Create start button
 * Make it disappear once hit until quiz is over
